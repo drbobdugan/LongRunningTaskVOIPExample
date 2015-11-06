@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D614F19CD3558A29452D857 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 064034765EB101EFAEF1AD32 /* libPods.a */; };
 		280BFB761BED04720070EA1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BFB751BED04720070EA1B /* main.m */; };
 		280BFB791BED04720070EA1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BFB781BED04720070EA1B /* AppDelegate.m */; };
 		280BFB7C1BED04720070EA1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BFB7B1BED04720070EA1B /* ViewController.m */; };
 		280BFB7F1BED04720070EA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BFB7D1BED04720070EA1B /* Main.storyboard */; };
 		280BFB811BED04720070EA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280BFB801BED04720070EA1B /* Assets.xcassets */; };
 		280BFB841BED04720070EA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280BFB821BED04720070EA1B /* LaunchScreen.storyboard */; };
+		280BFB8C1BED152B0070EA1B /* TwilioSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 280BFB8B1BED152B0070EA1B /* TwilioSDK */; };
+		280BFB8E1BED19E20070EA1B /* batphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280BFB8D1BED19E20070EA1B /* batphone.jpg */; settings = {ASSET_TAGS = (); }; };
+		280BFB911BED208A0070EA1B /* BackgroundTimeRemainingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BFB901BED208A0070EA1B /* BackgroundTimeRemainingUtility.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064034765EB101EFAEF1AD32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14042CA51120EFD463134395 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		14DC67C6952A82C45184DC3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		280BFB711BED04720070EA1B /* LongRunningTaskVOIPExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongRunningTaskVOIPExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280BFB751BED04720070EA1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		280BFB771BED04720070EA1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,10 @@
 		280BFB801BED04720070EA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280BFB831BED04720070EA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280BFB851BED04720070EA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280BFB8B1BED152B0070EA1B /* TwilioSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TwilioSDK; path = Pods/TwilioSDK; sourceTree = "<group>"; };
+		280BFB8D1BED19E20070EA1B /* batphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = batphone.jpg; path = ../../../Documents/batphone.jpg; sourceTree = "<group>"; };
+		280BFB8F1BED20840070EA1B /* BackgroundTimeRemainingUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BackgroundTimeRemainingUtility.h; path = ../../LongRunningTaskLocationExample/LongRunningTaskLocationExample/BackgroundTimeRemainingUtility.h; sourceTree = "<group>"; };
+		280BFB901BED208A0070EA1B /* BackgroundTimeRemainingUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundTimeRemainingUtility.m; path = ../../LongRunningTaskLocationExample/LongRunningTaskLocationExample/BackgroundTimeRemainingUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +44,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280BFB8C1BED152B0070EA1B /* TwilioSDK in Frameworks */,
+				1D614F19CD3558A29452D857 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27EF2A254065AA6900BF1F21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14DC67C6952A82C45184DC3B /* Pods.debug.xcconfig */,
+				14042CA51120EFD463134395 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		280BFB681BED04720070EA1B = {
 			isa = PBXGroup;
 			children = (
 				280BFB731BED04720070EA1B /* LongRunningTaskVOIPExample */,
 				280BFB721BED04720070EA1B /* Products */,
+				27EF2A254065AA6900BF1F21 /* Pods */,
+				581F1C3561B90CC92D7F10AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +84,8 @@
 			children = (
 				280BFB771BED04720070EA1B /* AppDelegate.h */,
 				280BFB781BED04720070EA1B /* AppDelegate.m */,
+				280BFB8F1BED20840070EA1B /* BackgroundTimeRemainingUtility.h */,
+				280BFB901BED208A0070EA1B /* BackgroundTimeRemainingUtility.m */,
 				280BFB7A1BED04720070EA1B /* ViewController.h */,
 				280BFB7B1BED04720070EA1B /* ViewController.m */,
 				280BFB7D1BED04720070EA1B /* Main.storyboard */,
@@ -74,9 +100,19 @@
 		280BFB741BED04720070EA1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				280BFB8D1BED19E20070EA1B /* batphone.jpg */,
 				280BFB751BED04720070EA1B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		581F1C3561B90CC92D7F10AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280BFB8B1BED152B0070EA1B /* TwilioSDK */,
+				064034765EB101EFAEF1AD32 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 280BFB881BED04720070EA1B /* Build configuration list for PBXNativeTarget "LongRunningTaskVOIPExample" */;
 			buildPhases = (
+				7B6E1DD0110C68CA2352C650 /* Check Pods Manifest.lock */,
 				280BFB6D1BED04720070EA1B /* Sources */,
 				280BFB6E1BED04720070EA1B /* Frameworks */,
 				280BFB6F1BED04720070EA1B /* Resources */,
+				47571ECAA14C910253A3EB7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +148,11 @@
 				TargetAttributes = {
 					280BFB701BED04720070EA1B = {
 						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280BFB8E1BED19E20070EA1B /* batphone.jpg in Resources */,
 				280BFB841BED04720070EA1B /* LaunchScreen.storyboard in Resources */,
 				280BFB811BED04720070EA1B /* Assets.xcassets in Resources */,
 				280BFB7F1BED04720070EA1B /* Main.storyboard in Resources */,
@@ -144,11 +188,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47571ECAA14C910253A3EB7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6E1DD0110C68CA2352C650 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		280BFB6D1BED04720070EA1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280BFB911BED208A0070EA1B /* BackgroundTimeRemainingUtility.m in Sources */,
 				280BFB7C1BED04720070EA1B /* ViewController.m in Sources */,
 				280BFB791BED04720070EA1B /* AppDelegate.m in Sources */,
 				280BFB761BED04720070EA1B /* main.m in Sources */,
@@ -213,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -261,8 +339,10 @@
 		};
 		280BFB891BED04720070EA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DC67C6952A82C45184DC3B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LongRunningTaskVOIPExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stonehill.edu.LongRunningTaskVOIPExample;
@@ -272,10 +352,13 @@
 		};
 		280BFB8A1BED04720070EA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14042CA51120EFD463134395 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LongRunningTaskVOIPExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = stonehill.edu.LongRunningTaskVOIPExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +383,7 @@
 				280BFB8A1BED04720070EA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
