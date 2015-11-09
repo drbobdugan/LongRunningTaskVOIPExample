@@ -2,7 +2,13 @@
 //  ViewController.m
 //  LongRunningTaskVOIPExample
 //
-
+//  Sources:
+//     - https://www.twilio.com/docs/quickstart/php/ios-client
+//     - https://www.twilio.com/docs/quickstart/php/ios-client/setup
+//     - https://www.twilio.com/docs/quickstart/php/ios-client/make-outgoing-call
+//
+//  I used Heroku to make the deployment and management of the server-side application easy... the setup and configuration
+//  of Heroky took about five minutes which included the setting up a Heroku account.
 //
 //  Created by Bob Dugan on 11/6/15.
 //  Copyright © 2015 Bob Dugan. All rights reserved.
@@ -35,7 +41,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)dialButtonPressed:(id)sender
